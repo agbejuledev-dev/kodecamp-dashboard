@@ -1,6 +1,6 @@
 // StudentList.jsx — Grid wrapper that renders all StudentCard components
 
-import StudentCard from "./StudentCard";
+import StudentCard from "./StudentCard.jsx"
 
 const StudentList = ({ students, title = "All Students", children }) => {
   return (

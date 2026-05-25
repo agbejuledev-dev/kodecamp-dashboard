@@ -1,8 +1,8 @@
 // App.jsx — Root component; owns data and passes everything down via props
 
 import "./App.css";
-import Header from "./components/Header";
-import StudentList from "./components/StudentList";
+import Header from "./components/Header.jsx"
+import StudentList from "./components/StudentList.jsx"
 
 /* ── Student dataset ── */
 const students = [
