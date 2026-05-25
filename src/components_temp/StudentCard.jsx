@@ -1,7 +1,7 @@
 // StudentCard.jsx — Individual student profile card
 
 import Badge from "./Badge.jsx"
-import StatBar from "./StatBar.jsx"
+import StatBar from "./statBar.jsx"
 
 const getGrade = (score) => {
   if (score >= 90) return "A";
